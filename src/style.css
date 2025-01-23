@@ -71,10 +71,6 @@ header h1 {
     display: block;
   }
 
-  .description-2-col{
-    grid-template-columns: 1fr 1fr;
-  }
-
   main {
     background-color: white;
   }
@@ -85,7 +81,7 @@ header h1 {
     line-height: 1.5;
     margin: 0;
     letter-spacing: 5px;
-    color: #ffffff;
+    color: #272044;
     opacity: 0.3;
     text-transform: uppercase;
   }
@@ -94,7 +90,7 @@ header h1 {
     font-weight: 700;
     font-size: 40px;
     line-height: 1.5;
-    color: #ffffff;
+    color: #272044;
     margin: 0;
   }
   
@@ -102,7 +98,7 @@ header h1 {
     font-weight: 700;
     font-size: 24px;
     line-height: 1;
-    color: #e9e9eb;
+    color: #272044;
     margin: 0;
   }
   
@@ -111,7 +107,7 @@ header h1 {
     font-size: 13px;
     margin: 0;
     line-height: 1;
-    color: #f5f5f5;
+    color: #272044;
   }
   
   main p {
@@ -125,7 +121,17 @@ header h1 {
   
   .grid {
     display: grid;
+    margin:0 auto;
+    
+  }
+  .grid-2-columns{
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+    padding:20px 0 20px 0;
+  }
+  .grid-3-columns{
     grid-template-columns: 1fr 2fr 2fr;
+    grid-gap:10px;
   }
   footer{
     color:white;
